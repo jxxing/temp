@@ -7,6 +7,18 @@ import java.util.Date;
 public class IntegerTest {
 
 	public static void main(String[] args){
+		int i = 16;
+		i |= (i >>  1);
+        i |= (i >>  2);
+		System.out.println(i);
+        i |= (i >>  4);
+		System.out.println(i);
+        i |= (i >>  8);
+		System.out.println(i);
+        i |= (i >> 16);
+		System.out.println(i);
+        System.out.println(i - (i >>> 1));
+//		System.out.println(Integer.highestOneBit(16)); 
 
 		Double dob ;
 		BigDecimal big;
@@ -31,7 +43,7 @@ public class IntegerTest {
 		System.out.println(Integer.valueOf(fnum));
 		System.out.println(Integer.parseInt("11"));
 		
-		int i =11;
+		i =11;
 		
 		String j = "111";
 		

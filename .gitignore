@@ -1,0 +1,6 @@
+.*
+!.gitignore
+lib
+/bin
+/target
+hibernate.cfg.xml
