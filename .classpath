@@ -5,14 +5,22 @@
 	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.hibernate.MYECLIPSE_HIBERNATE3_1_CORE"/>
 	<classpathentry kind="lib" path="lib/classes12.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
-	<classpathentry kind="lib" path="C:/Users/RDuser/Downloads/alipay-sdk-JAVA-20150204220120/alipay-sdk-java20150204220100.jar" sourcepath="C:/Users/RDuser/Downloads/alipay-sdk-JAVA-20150204220120/alipay-sdk-java20150204220100-source.jar"/>
-	<classpathentry kind="lib" path="C:/Users/RDuser/Downloads/alipay-sdk-JAVA-20150204220120/alipay-sdk-java20150204220100-source.jar"/>
-	<classpathentry kind="lib" path="C:/Users/RDuser/Downloads/alipay-sdk-JAVA-20150204220120/commons-logging-1.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/RDuser/Downloads/alipay-sdk-JAVA-20150204220120/commons-logging-1.1.1-sources.jar"/>
 	<classpathentry kind="lib" path="lib/taobao-sdk-java-auto_1430758359895-20150509-source.jar"/>
 	<classpathentry kind="lib" path="lib/taobao-sdk-java-auto_1430758359895-20150509.jar"/>
 	<classpathentry kind="lib" path="E:/apache-tomcat-7.0.52/lib/jsp-api.jar"/>
 	<classpathentry kind="lib" path="E:/apache-maven-3.2.3/repo/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar" sourcepath="E:/apache-maven-3.2.3/repo/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar"/>
-	<classpathentry kind="lib" path="E:/apache-maven-3.2.3/repo/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar"/>
+	<classpathentry kind="lib" path="E:/apache-maven-3.2.3/repo/com/alibaba/fastjson/1.1.41/fastjson-1.1.41.jar"/>
+	<classpathentry kind="lib" path="lib/commons-beanutils-core-1.8.0-BETA.jar"/>
+	<classpathentry kind="lib" path="lib/commons-collections.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/creatjar.jar"/>
+	<classpathentry kind="lib" path="lib/ezmorph.jar"/>
+	<classpathentry kind="lib" path="lib/json-lib-2.2.2-jdk15.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.18-bin.jar"/>
+	<classpathentry kind="lib" path="lib/org.mybatis.generator.core_1.3.3.201606241937.jar"/>
+	<classpathentry kind="lib" path="lib/org.mybatis.generator_1.3.3.201606241937.jar"/>
+	<classpathentry kind="lib" path="lib/org.mybatis.generator.core.source_1.3.3.201606241937.jar"/>
+	<classpathentry kind="lib" path="lib/org.mybatis.generator.source_1.3.3.201606241937.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

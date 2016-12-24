@@ -57,7 +57,12 @@ public class ReflectTest {
 		Field field = null;
 		Field[] fields = ownerClass.getFields();
 		for(Field fieldsss : fields){
-			System.out.println(fieldsss);
+			System.out.println("sss "+fieldsss.getName());
+		}
+		
+		Field[] fieldss = ownerClass.getDeclaredFields();
+		for(Field fieldsss : fieldss){
+			System.out.println("ssd "+fieldsss.getName());
 		}
 		try {
 			field = ownerClass.getField(fieldName);

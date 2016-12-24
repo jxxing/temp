@@ -28,6 +28,17 @@ public class StringBufferTest {
         }
         s11 = System.currentTimeMillis();
         System.out.println("StringBuffer--new StringBuffer:" + (s11 - s1));
+        
+        
+        String a = "abc";
+        
+        String b = a;
+        
+        a = "xyz";
+        
+        System.out.println(a);
+        System.out.println(b);
+        
        }
 
 

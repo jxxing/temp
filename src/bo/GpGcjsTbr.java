@@ -9,11 +9,21 @@ public class GpGcjsTbr implements java.io.Serializable {
 	// Fields
 
 	private GpGcjsTbrId id;
+	
+	public String aaaaaaa;
 
 	// Constructors
 
 	/** default constructor */
 	public GpGcjsTbr() {
+	}
+
+	public String getAaaaaaa() {
+		return aaaaaaa;
+	}
+
+	public void setAaaaaaa(String aaaaaaa) {
+		this.aaaaaaa = aaaaaaa;
 	}
 
 	/** full constructor */

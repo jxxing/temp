@@ -4,8 +4,8 @@ class Hello implements Runnable{
 
 	@Override
 	public void run() {
-		for(int i = 0;;i++){
-			System.out.println(Thread.currentThread() +" " + Thread.currentThread().getName());
+		for(int i = 0;i<10;i++){
+			System.out.println(Thread.currentThread() +" dd" + Thread.currentThread().getName());
 		}
 		
 	}
@@ -17,7 +17,7 @@ public class TestThreadTwo {
 		Hello hello = new Hello();
 		Thread thread1 = new Thread(hello);
 		thread1.setDaemon(true);
-		thread1.start();
+		System.out.println(Thread.currentThread().getName() + "..dddd.");
 		for(int i = 0;i < 20;i++){
 //			try {
 //				Thread.sleep(2000);
@@ -26,13 +26,14 @@ public class TestThreadTwo {
 //			}
 			if(i>18){
 				try {
-					thread1.join();
+					thread1.start();
+					thread1.join();System.out.println(Thread.currentThread().getName() + "..dddff." + i);
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
 			}
-			System.out.println(Thread.currentThread().getName() + "..." + i);
-		}
+			System.out.println(Thread.currentThread().getName() + "..ddddddddddddddddd." + i);
+		}System.out.println(Thread.currentThread() + Thread.currentThread().getName());
 		System.out.println("hello over");
 	}
 }

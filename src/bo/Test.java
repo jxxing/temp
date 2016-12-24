@@ -83,4 +83,6 @@ public class Test extends TestFather{
 	
 	private int[] a = null;
 	
+	public int d;
+	
 }

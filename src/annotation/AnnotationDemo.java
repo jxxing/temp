@@ -34,6 +34,7 @@ public class AnnotationDemo {
 	        Constructor con = cls.getConstructor();
 			Object objnn = con.newInstance(); 
 	        method.invoke(cls.newInstance());
+	        method.invoke(objnn);
         } catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

@@ -150,6 +150,12 @@ public final class ThreadPool {
 					System.out.println("runname:"+name+";wait task number:"+getWaitTasknumber());
 					r.run();// 执行任务
 				}
+	            try {
+					Thread.sleep(5);//验证finished_task这个值有并发问题，果然有。
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 				finished_task++;
 				r = null;
 			}

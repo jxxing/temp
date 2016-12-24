@@ -126,7 +126,9 @@ public class MD5Util {
 //		System.out.println("----------md5=" + md5);
 		
 //		System.out.println(getMD5String("郭XX-精品相声技术"));
-		System.out.println(getMD5String("123456"));
+//		System.out.println(getMD5String("123456"));
+		String Str = "appId=20150122100373165412&oauthToken=47ec42d7f5694b3286b3ca00f31c3b58signType=1543BEA8998468882A58E5741AF380330";
+		System.out.println(getMD5String(Str));
 	}
 	
 

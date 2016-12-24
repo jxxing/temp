@@ -8,7 +8,7 @@ public class StringTest {
 		System.out.println(aaaa.substring(aaaa.length()-4));
 
 		String s = null;
-		//System.out.println(s.isEmpty());
+//		System.out.println(s.isEmpty());//报错
 
 		String s1 = "{~";
 		String s2 = "|_";
@@ -19,12 +19,19 @@ public class StringTest {
 
 		String s3 = "的";
 		String s4 = "";
-		System.out.println(s3.length());// 0
+		System.out.println(s3.length());// 1
 		System.out.println(s4.length());// 0
 
-		System.out.println(s3.hashCode());// 0
+		System.out.println(s3.hashCode());// 30340
 
 		System.out.println(s4.hashCode());// 0
+		
+		String number1 = 1 + 2 + "3";//33123
+		String number2 = "1" + 2 + 3;
+
+		System.out.println(number1 + number2);
+		System.out.println(number1 == number2);
+		
 
 	}
 }
